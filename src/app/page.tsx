@@ -20,12 +20,6 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
-                href="/login"
-                className="rounded-full bg-ink px-6 py-3 text-sm font-semibold text-surface transition hover:bg-black"
-              >
-                Admin or agent login
-              </Link>
-              <Link
                 href="/register"
                 className="rounded-full border border-ink px-6 py-3 text-sm font-semibold text-ink transition hover:bg-ink hover:text-surface"
               >
