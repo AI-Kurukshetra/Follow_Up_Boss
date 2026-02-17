@@ -1,12 +1,12 @@
 import path from "path";
-import { fileURLToPath } from "url";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+// Use process.cwd() so Tailwind resolves correctly in all environments (local, Vercel, etc.)
+const base = process.cwd();
 
 const config = {
   plugins: {
     "@tailwindcss/postcss": {
-      base: __dirname,
+      base,
     },
   },
 };
