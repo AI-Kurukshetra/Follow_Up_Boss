@@ -57,12 +57,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="grid gap-6 md:grid-cols-3">
+        <section className="grid gap-6 md:grid-cols-2">
           {[
-            {
-              title: "Admin command center",
-              text: "Create agents, customers, and properties with assignments in one flow.",
-            },
             {
               title: "Agent workspace",
               text: "Agents manage their own customers and properties without clutter.",
